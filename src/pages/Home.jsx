@@ -12,7 +12,7 @@ const Home = () => {
       <NavBar />
 
       {/* Hero Section */}
-      <section className="bg-primary text-black-400 px-16 min-h-screen">
+      <section className="flex items-center bg-primary text-black-400 px-16 min-h-screen">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7 text-white">
             <h1 className="max-w-2xl mb-4 text-xxl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">

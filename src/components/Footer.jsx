@@ -3,26 +3,24 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="px-16 bg-white sm:p-6 dark:bg-gray-900">
+      <footer className="mx-24 bg-white sm:p-6 dark:bg-gray-900">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
+          <div className="w-1/3 pr-8 md:mb-0">
+            <a href="#" className="flex items-center">
               <img
                 src="/src/assets/brand-logo.png"
                 className="mr-3 h-8"
-                alt="FlowBite Logo"
+                alt="Brand Logo"
               />
-              {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                DSpatch
-              </span> */}
             </a>
+            <p className="text-primary text-sm mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, incidunt. Quod praesentium autem sapiente enim amet consequuntur rerum beatae ipsa.</p>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 text-primary text-sm">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-primary uppercase dark:text-white">
                 Quick Links
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
+              <ul className="dark:text-gray-400">
                 <li className="mb-4">
                   <a href="https://flowbite.com/" className="hover:underline">
                     Tracking
@@ -55,10 +53,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-primary uppercase dark:text-white">
                 Company
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
+              <ul className="dark:text-gray-400">
                 <li className="mb-4">
                   <a href="#" className="hover:underline ">
                     About DSpatch
@@ -90,7 +88,7 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Partner with DSpatch
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400">
+              <ul className="text-primary dark:text-gray-400">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Sign up as a Customer
@@ -116,14 +114,8 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            Copyright © 2023{" "}
-            <a href="#" className="hover:underline">
-              DSpatch
-            </a>
-            ™. All Rights Reserved.
-          </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 text-primary">
             <a href="#" className="hover:text-gray-900 dark:hover:text-white">
               <svg
@@ -190,6 +182,17 @@ const Footer = () => {
               <span className="sr-only">Tiktok page</span>
             </a>
           </div>
+          <span className="text-sm text-primary sm:text-center dark:text-gray-400">
+            Copyright © 2023{" "}
+            <a href="#" className="hover:underline">
+              DSpatch
+            </a>
+            ™. All Rights Reserved.
+          </span>
+          <span className="w-48 flex justify-between text-sm text-primary sm:text-center dark:text-gray-400">
+            <a href="#" className="hover:underline">Terms & Condition</a>
+            <a href="#" className="hover:underline">Cookie Policy</a>
+          </span>
         </div>
       </footer>
     </>
@@ -197,9 +200,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// About DSpatch
-// Our Offerings
-// How DSpatch works
-// Press
-// Blog
