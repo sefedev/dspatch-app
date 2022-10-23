@@ -193,12 +193,12 @@ const Home = () => {
 
       {/* Mobile call to Section */}
       <div className="bg-primary text-white text-sm w-full h-80 my-20">
-        <div className="flex flex-col justify-between text-center items-center m-auto w-1/3 h-80 pt-8 pb-6">
+        <div className="flex flex-col justify-between text-center items-center m-auto w-1/2 h-80 pt-8 pb-6">
         <h1 className="text-white text-lg font-bold ">
           Ready to send goods to your customers?
         </h1>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between w-3/4">
           <button
             type="button"
             className="flex mt-3 w-48 h-14 bg-black border border-white rounded-xl items-center justify-center"
