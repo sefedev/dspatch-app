@@ -87,7 +87,7 @@ const Home = () => {
       {/* End of Hero Section */}
 
       {/* Sub Hero Section */}
-      <section className="flex bg-[url(/public/assets/roman-logov-f5QWC1a3tOA-unsplash.png)] h-60 w-full bg-cover bg-center text-white px-16 py-8  ">
+      <section className="flex bg-[url(/src/assets/roman-logov-f5QWC1a3tOA-unsplash.png)] h-60 w-full bg-cover bg-center text-white px-16 py-8  ">
         <div className="w-1/2 px-14 flex flex-col justify-center">
           <h1 className="text-lg py-2 text-left w-fit font-bold">
             Become a DSpatcher and get paid
